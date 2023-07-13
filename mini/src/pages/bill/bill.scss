@@ -1,0 +1,224 @@
+.billContainer{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.topContent{
+  .searchBox{
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    .input{
+      color: rgba(0, 0, 0, 0.58);
+      height: 30px;
+      margin-top: 5px;
+    }
+  }
+}
+.table{
+  width: 96%;
+  height: auto;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  .comBox{
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 26px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .name{
+    width: 30%;
+  }
+  .number{
+    width: 10%;
+  }
+  .priceBuy{
+    width: 14%;
+  }
+  .priceSell{
+    width: 14%;
+  }
+  .earnings{
+    width: 16%;
+  }
+  .optionB{
+    width: 16%;
+  }
+}
+
+.tableContent{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  max-height: calc(100% - 400px);
+  overflow-y: auto;
+  .table{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    padding-bottom: 10px;
+    .comBox{
+      color: rgba(0, 0, 0, 0.68);
+      height: 100%;
+    }
+    .name{
+      //border-right: 1px solid rgba(0, 0, 0, 0.07);
+    }
+    .opacityN{
+      opacity: 0.4;
+    }
+  }
+  .tableNo{
+    border: 1px solid red;
+    display: none;
+  }
+}
+.detailContent{
+  width: 60%;
+  .detailLi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .priceBuy{
+      width: 23%;
+    }
+    .priceSell{
+      width: 23%;
+    }
+    .earnings{
+      width: 27%;
+    }
+    .optionB{
+      width: 27%;
+    }
+    .red{
+      color: #E25050;
+      font-weight: 600;
+    }
+    .green{
+      color: #3FA95E;
+      font-weight: 600;
+    }
+  }
+  .detailLi2{
+    //text-decoration: line-through;
+    opacity: 0.25;
+  }
+}
+
+.red{
+  color: #E25050;
+  font-weight: 600;
+}
+.green{
+  color: #3FA95E;
+  font-weight: 600;
+}
+
+.bottomOptionContent{
+  width: 100%;
+  height: 150px;
+  position: relative;
+  .btnContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .optionDiv{
+      width: 45%;
+      .textTit{
+        font-size: 22px;
+        color: rgba(0,0,0, 0.28);
+      }
+      .number_n{
+        font-weight: 500;
+        font-size: 46px;
+        .chiCN{
+          font-size: 24px;
+          color: rgba(0,0,0, 0.28);
+        }
+      }
+    }
+    .optionDiv1{
+      .number_n{
+        color: rgba(0,0,0, 0.58);
+      }
+    }
+    .optionDiv2{
+      text-align: right;
+    }
+  }
+}
+.onUpdateBtn{
+  text-indent: 30px;
+  font-size: 24px;
+  margin-top: 10px;
+  color: rgba(0,0,0, 0.38);
+  span{
+    display: inline-block;
+  }
+}
+
+.popContainer{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background: rgba(0,0,0, 0.4);
+  .popContent{
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    .popTitle{
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      font-size: 28px;
+    }
+    .listBox{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 80%;
+      margin: 20px auto;
+      .text1T{
+        width: 150px;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.58);
+        font-size: 24px;
+      }
+      .input{
+        width: calc(100% - 220px);
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        border-radius: 30px;
+        box-sizing: border-box;
+        color: rgba(0, 0, 0, 0.58);
+        height: 30px;
+        padding: 0 20px;
+      }
+    }
+    .popBtnContent{
+      width: 80%;
+      margin: 50px auto 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+

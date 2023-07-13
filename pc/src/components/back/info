@@ -1,0 +1,88 @@
+curl 'http://192.168.11.46/go/games/webconfig/saveServerActivity' \
+  -X 'OPTIONS' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Access-Control-Request-Headers: authorization,content-type' \
+  -H 'Access-Control-Request-Method: POST' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/saveServerActivity' \
+  -H 'Accept: application/json' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: e6d5bb4c61799f3' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --data-raw '{"actconfig":"{\"desc\":\"充值返现\",\"show_state\":0,\"icon\":\"http://xs-voice.oss-cn-hangzhou.aliyuncs.com/mini/expand/user_head/202205.128947672.b245f9121336dde9132864.png\",\"id\":6,\"name\":\"测试调试用 勿删\",\"link\":\"https://page.91hotplay.com/who/who-six-lover/index.html?clientScreenMode=1\",\"dev_link\":\"http://192.168.11.46:8090/who-six-lover/index.html?clientScreenMode=1\",\"start_time\":1655870400,\"end_time\":1658160000,\"json_config\":\"\"}","rewardlist":"[{\"reward_type\":\"total_rank\",\"condition\":500000,\"name\":\"累计充值5000元\",\"package\":\"[{\\\"cid\\\":22070,\\\"num\\\":1}]\",\"titles\":\"[{\\\"cid\\\":158,\\\"num\\\":1}]\",\"msg\":\"恭喜你，单日累计充值满2000元，7天【家里有矿】称号和星空木马头像框奖励已发放，请注意查看~\",\"sysmsg\":\"\",\"scheme_url\":\"who://www/browser?page=bag\"}]"}' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/getServerActivitys?act_ids=6' \
+  -H 'Accept: application/json' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: e6d5bb4c61799f3' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/getServerActivitys?act_ids=6' \
+  -X 'OPTIONS' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Access-Control-Request-Headers: authorization' \
+  -H 'Access-Control-Request-Method: GET' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://xs-voice.oss-cn-hangzhou.aliyuncs.com/mini/expand/user_head/202205.128947672.b245f9121336dde9132864.png' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/getServerActivityDetail?act_id=6' \
+  -H 'Accept: application/json' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: e6d5bb4c61799f3' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/getServerActivityDetail?act_id=6' \
+  -X 'OPTIONS' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Access-Control-Request-Headers: authorization' \
+  -H 'Access-Control-Request-Method: GET' \
+  -H 'Connection: keep-alive' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://192.168.11.46/go/games/webconfig/saveServerActivity' \
+  -H 'Accept: application/json' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: e6d5bb4c61799f3' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  --data-raw '{"actconfig":"{\"id\":6,\"act_type\":0,\"position\":0,\"start_time\":1655870400,\"end_time\":1658160000,\"name\":\"测试调试用 勿删\",\"desc\":\"充值返现修改保存是否生效\",\"link\":\"https://page.91hotplay.com/who/who-six-lover/index.html?clientScreenMode=1\",\"icon\":\"http://xs-voice.oss-cn-hangzhou.aliyuncs.com/mini/expand/user_head/202205.128947672.b245f9121336dde9132864.png\",\"pool_id\":0,\"lucky_value\":0,\"lucky_cid\":0,\"recordSkipCids\":\"\",\"suitCids\":\"\",\"gift_id\":0,\"ring_id\":0,\"team_member_count\":0,\"show_state\":0,\"share_tp\":0,\"reg_channel\":\"\"}","rewardlist":"[[{\"id\":1207,\"act_id\":6,\"reward_type\":\"total_rank\",\"condition\":500000,\"name\":\"累计充值5000元\",\"package\":\"[{\\\"cid\\\":22070,\\\"num\\\":1}]\",\"titles\":\"[{\\\"cid\\\":158,\\\"num\\\":1}]\",\"msg\":\"恭喜你，单日累计充值满2000元，7天【家里有矿】称号和星空木马头像框奖励已发放，请注意查看~\",\"sysmsg\":\"\",\"broadcast_gift_id\":0,\"scheme_url\":\"who://www/browser?page=bag\"}]]"}' \
+  --compressed \
+  --insecure

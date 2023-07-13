@@ -1,0 +1,60 @@
+body {
+  /*min-width: 1350px;*/
+  overflow: auto;
+}
+.meetingContentBox .meetingTable .ivu-input-icon-normal + .ivu-input {
+  padding: 0;
+  text-indent: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.content_scroll::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 4px; /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.content_scroll::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+.content_scroll::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.createMeetingContentBox .meetingTime .ivu-input-icon-normal + .ivu-input,
+.createMeetingContentBox .department .ivu-cascader .ivu-input {
+  padding: 0;
+  text-indent: 8px;
+}
+
+.suggestInfo textarea.ivu-input {
+  height: 100% !important;
+  padding: 4px 0;
+  text-indent: 10px;
+}
+
+/*会议详情*/
+.meetingDetailPage .container .meetingNav .ivu-input {
+  padding: 0;
+  height: 28px;
+  text-indent: 8px;
+}
+/**/
+.unSaveMeetingDetailPage .edui-default .edui-editor-iframeholder {
+  height: 130px !important;
+}
+.unSaveMeetingDetailPage .ivu-input-icon-normal + .ivu-input {
+  padding: 0;
+}
+.unSaveMeetingDetailPage .ivu-input {
+  height: 28px;
+  padding: 0;
+  text-indent: 8px;
+}
